@@ -1,0 +1,360 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 0;
+  margin: 0;
+  /* height: 100vh; */
+  overflow-x: hidden;
+}
+
+/*         header awal         */
+.header {
+  background-color: #ffff;
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.1);
+}
+
+.header-content {
+  max-width: 1750px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: end;
+}
+
+.header-content a {
+  text-decoration: none;
+  margin: 1rem 1.5rem;
+  color: #2c2c2c;
+  font-weight: bold;
+}
+
+.header-content img {
+  transform: translate(-8px, 4px);
+}
+
+/*       navbar ke2      */
+.navbar {
+  background-color: #ffff;
+  margin: 1rem 0;
+}
+
+.logo {
+  transform: translate(-65.5rem);
+}
+
+.navbar-content {
+  max-width: 1750px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: end;
+}
+
+.navbar-content a {
+  text-decoration: none;
+  margin: 1rem 1rem;
+  color: black;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.navbar-content a:hover {
+  color: rgb(184, 0, 0);
+}
+
+.brdr {
+  border-right: 3px solid #b8b8b8;
+  padding-right: 2rem;
+}
+
+.navbar-content button {
+  cursor: pointer;
+  border-radius: 8px;
+  color: #ffff;
+  font-weight: bold;
+  font-size: larger;
+  background-color: rgb(184, 0, 0);
+  border: none;
+  padding: 0 2rem;
+  transition: all 0.3s ease;
+}
+
+.navbar-content button:hover {
+  background-color: rgb(141, 0, 0);
+}
+
+/*        tombol        */
+.tombol {
+  margin-bottom: 5rem;
+}
+.tombol-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+  transform: translate(-14rem, -3.5rem);
+}
+
+.tombol-content a {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bolder;
+  font-size: x-large;
+  padding-right: 20rem;
+  background-color: #ffff;
+  border-radius: 8px;
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.1);
+  transition: all 0.6s ease;
+}
+
+.tombol-content a:hover {
+  background-color: rgb(141, 0, 0);
+}
+
+.tombol-content img {
+  padding: 1rem 0;
+  margin-right: 1rem;
+  margin-left: 2rem;
+}
+
+.banner {
+  max-width: 1600px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  background-color: rgb(255, 249, 239);
+  background-image: url(semuafoto/left-pizza-bg-CkWhFC0l.webp);
+  background-position: left center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding: 20px;
+  border-radius: 8px;
+}
+.banner-text {
+  flex-grow: 1;
+  font-size: xx-large;
+  text-align: center;
+  line-height: 4rem;
+}
+.banner-text img {
+  transform: translate(0, 2px);
+  margin: 0 4px;
+}
+.banner-text strong {
+  font-weight: bold;
+}
+.banner-button {
+  text-align: center;
+  background-color: rgb(184, 0, 0);
+  color: white;
+  border: none;
+  padding: 13px 23px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: medium;
+  font-weight: bold;
+  transform: translate(16.5rem);
+}
+
+/*      pizza      */
+.promosi {
+  margin-top: 7rem;
+  margin-bottom: 10rem;
+}
+
+.promosi-content {
+  max-width: 1645px;
+  margin: 0 auto;
+}
+
+.promosi-content h1 {
+  display: flex;
+}
+
+.promosi-content a {
+  position: absolute;
+  transform: translate(98rem, -3rem);
+  text-decoration: none;
+  color: rgb(184, 0, 0);
+  font-weight: bold;
+  font-size: large;
+}
+
+.promosi-content img {
+  display: inline-flex;
+  justify-content: space-between;
+  text-align: center;
+  width: 820px;
+  border-radius: 8px;
+}
+
+/*     produk      */
+.product {
+  max-width: 1650px;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+.product h1 {
+  font-size: 2em;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.all-product {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.product-content {
+  width: 15%;
+  border: 1px solid #e0e0e0;
+  border-radius: 10px;
+  overflow: hidden;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.product-content img {
+  width: 100%;
+  padding-bottom: 1rem;
+}
+.card-title {
+  text-align: left;
+  font-size: 1em;
+  font-weight: bold;
+  margin: 10px 1.5rem;
+}
+.product-content button {
+  background-color: #fff;
+  border: 1px solid rgb(184, 0, 0);
+  color: rgb(184, 0, 0);
+  padding: 10px 90px;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  transition: all 0.3s ease;
+}
+.product-content button:hover {
+  background-color: rgb(184, 0, 0);
+  color: #fff;
+}
+
+/*    indonesia    */
+.indonesia {
+  margin-top: 10rem;
+  height: 100vh;
+}
+.indonesia-content svg {
+  transform: translate(20rem, 10rem);
+}
+
+.indonesia-content h1 {
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+  max-width: 600px;
+  font-weight: 900;
+  font-size: 2rem;
+  margin: 0 auto;
+}
+
+.indonesia-content button {
+  transform: translate(53rem, 0);
+  background-color: rgb(184, 0, 0);
+  color: white;
+  padding: 15px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-top: 20px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  transition: all;
+}
+.indonesia-content button:hover {
+  background-color: rgb(184, 0, 0);
+  color: #fff;
+}
+
+/*     footer      */
+footer {
+  background-image: url(https://www.pizzahut.co.id/assets/dfooter-BAbdTqkz.jpg);
+  height: 1500px;
+}
+
+.footer-content img {
+  cursor: pointer;
+  position: absolute;
+  transform: translate(25rem);
+  width: 340px;
+}
+
+.footer-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 18rem 0;
+}
+
+.download {
+  align-items: left;
+  background-color: #ffff;
+  border-radius: 32px;
+  padding: 5rem 25rem;
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.1);
+}
+
+.download h1 {
+  transform: translate(-15rem);
+  margin-right: 5rem;
+  font-weight: bolder;
+  font-size: xx-large;
+}
+
+.download p {
+  font-size: larger;
+  transform: translate(-15rem);
+}
+
+/*     bagian dua      */
+.footercontent2 {
+  max-width: 1600px;
+  margin: 0 auto;
+}
+
+.footer-logos {
+  width: 92px;
+  cursor: pointer;
+  margin-right: 35rem;
+}
+.bagian2 a {
+  text-decoration: none;
+  color: #ffff;
+}
+
+.bagian2 {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.bagian2 p {
+  margin-top: 11rem;
+color: grey;
+}
+
+.bagian2 h1 {
+  color: #ffff;
+  font-size: x-large;
+}
+
+.list {
+  transform: translate(0, 4rem);
+  display: block;
+  padding: 0 5rem;
+}
+
+.list a {
+  display: block;
+  margin-bottom: 10px;
+}
